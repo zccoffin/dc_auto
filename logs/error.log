@@ -1,0 +1,6 @@
+2025-08-31 16:20:04 [CRITICAL] [31m[1m💥 channel_id.txt file not found. Please create the file with channel IDs, one per line.[0m
+2025-08-31 16:20:04 [CRITICAL] [31m[1m💥 Critical error occurred: [Errno 2] No such file or directory: 'channel_id.txt'[0m
+Traceback (most recent call last):
+  File "c:\Users\SK\Desktop\Discord-Ai-master\bot.py", line 677, in <module>
+    with open("channel_id.txt", "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'channel_id.txt'
