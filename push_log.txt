@@ -1,0 +1,142 @@
+2025-08-31 16:39:56,317 - \U0001f527 Initializing Git repo...
+2025-08-31 16:39:56,534 - \U0001f517 Adding remote origin...
+2025-08-31 16:41:14,841 - \U0001f4dd First commit created.
+2025-08-31 16:41:19,480 - \u26a0\ufe0f Push attempt 1 failed: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: Repository not found.
+fatal: repository 'https://github.com/zccoffin/dcautochat.git/' not found'
+2025-08-31 16:41:22,643 - \u26a0\ufe0f Push attempt 2 failed: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: Repository not found.
+fatal: repository 'https://github.com/zccoffin/dcautochat.git/' not found'
+2025-08-31 16:41:27,662 - \u26a0\ufe0f Push attempt 3 failed: Cmd('git') failed due to: exit code(128)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: Repository not found.
+fatal: repository 'https://github.com/zccoffin/dcautochat.git/' not found'
+2025-08-31 16:41:33,669 - \u274c Push failed after max retries.
+2025-08-31 16:41:33,683 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 16:41:33,684 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 16:41:33,684 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 16:41:33,685 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 16:43:05,520 - \u274c Failed to create repo: {"message":"Resource not accessible by personal access token","documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"403"}
+2025-08-31 16:48:22,116 - \U0001f680 GitHub repo created successfully.
+2025-08-31 16:48:22,489 - \U0001f4dd Committed changes.
+2025-08-31 16:48:43,145 - \u26a0\ufe0f Push attempt 1 failed: Cmd('git') failed due to: exit code(1)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Discord Bot Token —————————————————————————————————        
+remote:        locations:        
+remote:          - commit: c585c81fac47f97d0b33bce26daf1449b86733b3        
+remote:            path: .env.example:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/zccoffin/dcautochat/security/secret-scanning/unblock-secret/323AwmWdnRKC7QtuSRsnJqkk3yg        
+remote:             
+remote: 
+remote: 
+To https://github.com/zccoffin/dcautochat.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/zccoffin/dcautochat.git''
+2025-08-31 16:48:47,585 - \u26a0\ufe0f Push attempt 2 failed: Cmd('git') failed due to: exit code(1)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Discord Bot Token —————————————————————————————————        
+remote:        locations:        
+remote:          - commit: c585c81fac47f97d0b33bce26daf1449b86733b3        
+remote:            path: .env.example:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/zccoffin/dcautochat/security/secret-scanning/unblock-secret/323AwmWdnRKC7QtuSRsnJqkk3yg        
+remote:             
+remote: 
+remote: 
+To https://github.com/zccoffin/dcautochat.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/zccoffin/dcautochat.git''
+2025-08-31 16:48:54,416 - \u26a0\ufe0f Push attempt 3 failed: Cmd('git') failed due to: exit code(1)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Discord Bot Token —————————————————————————————————        
+remote:        locations:        
+remote:          - commit: c585c81fac47f97d0b33bce26daf1449b86733b3        
+remote:            path: .env.example:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/zccoffin/dcautochat/security/secret-scanning/unblock-secret/323AwmWdnRKC7QtuSRsnJqkk3yg        
+remote:             
+remote: 
+remote: 
+To https://github.com/zccoffin/dcautochat.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/zccoffin/dcautochat.git''
+2025-08-31 16:49:00,425 - \u274c Push failed after max retries.
+2025-08-31 16:49:00,486 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 16:49:00,486 - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2025-08-31 21:26:04,233 - \u2139\ufe0f Repo already exists. Proceeding...
+2025-08-31 21:26:04,793 - \U0001f4dd Committed changes.
+2025-08-31 21:26:09,424 - \u26a0\ufe0f Push attempt 1 failed: Cmd('git') failed due to: exit code(1)
+  cmdline: git push --set-upstream origin main
+  stderr: 'remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Discord Bot Token —————————————————————————————————        
+remote:        locations:        
+remote:          - commit: c585c81fac47f97d0b33bce26daf1449b86733b3        
+remote:            path: .env.example:5        
+remote:          - commit: 970c12713a32420b1c1282e0b4ef837145ff33d1        
+remote:            path: .envs:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/zccoffin/dcautochat/security/secret-scanning/unblock-secret/323AwmWdnRKC7QtuSRsnJqkk3yg        
+remote:             
+remote: 
+remote: 
+To https://github.com/zccoffin/dcautochat.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/zccoffin/dcautochat.git''
